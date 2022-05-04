@@ -30,8 +30,8 @@ const App = () => {
         {/* movie index */}
         <Route path='/movies' element={<MovieIndex />} />
         
-        
       </Routes>
+      
       <Footer />
     </BrowserRouter>
 
