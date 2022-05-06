@@ -19,7 +19,7 @@ const NavbarPage = () => {
       <chakra.header id="header" bg='gray.300'>
         <Flex
           w="100%"
-          px="6"
+          px="5"
           py="5"
           align="center"
           justify="space-between"
@@ -27,11 +27,11 @@ const NavbarPage = () => {
           {/* // Logo */}
           
           <Link to='/'>
-          <Image width='30px' src={owenHead}/>
+          <Image minW='45px' width='45px' src={owenHead}/>
           </Link>
 
           {/* // Nav Items */}
-          <HStack as="nav" spacing="5">
+          <HStack as="nav" spacing="5" mx={3}>
 
 
             <Image src={title}/>

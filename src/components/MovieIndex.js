@@ -101,7 +101,7 @@ const MovieIndex = () => {
                 <Text> Or click on a movie below!</Text>
               </Box>
             </Box>
-            <SimpleGrid mt={5} mb={5} columns={{ sm: 2, md: 3, lg: 4 }} spacing={10}>
+            <SimpleGrid my={5} columns={{ sm: 2, md: 3, lg: 4 }} spacing={10}>
               {filteredWows.map((item, index) => {
                 const { movie, year, poster } = item
                 return (
