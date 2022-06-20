@@ -4,7 +4,7 @@
 ## Overview
 This was the second project for the Software Engineering Immersive course with GA, which consisted of a hackathon over the course of a day and a half. I was paired with [klobbob](https://github.com/kobbob), and together we worked to plan, wireframe, and code the website.
 
-You can find the deployed version of our project [here](tbc).
+You can find the deployed version of our project [here](https://the-great-greezybob-site.netlify.app/).
 
 ## The Brief
 
@@ -46,6 +46,9 @@ Working within a very short time frame meant really prioritizing certain aspects
 
 ## Images
 
- 
+ ![Desktop Site Preview](./src/styles/images/desktopView.png)
+
+ ![Mobile Site Preview](./src/styles/images/mobileView.png)
+
 
 
