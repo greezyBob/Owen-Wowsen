@@ -36,9 +36,9 @@ You can find the deployed version of our project [here](https://the-great-greezy
 We started this project out by first spending time picking a suitable API for this project. We were limited to free APIs and were also conscious of any APIs with strict rate limiting and tight limits.
 
 ## Overview
-We chose to keep our site simple and clean given the time constraints. With this in mind we kept the site to one main page rather than having multiple different pages a user could click to. In order to make requests to the api we used axios and saved the resulting data to vairables using the React useState and setState hooks.
+We chose to keep our site simple and clean given the time constraints. With this in mind we kept the site to one main page rather than having multiple different pages a user could click to. In order to make requests to the api we used axios and saved the resulting data to variables using the React useState and setState hooks.
 
-For the design we opted for Chakra UI which allowed for a good amount of customisation whilst also having many prebuilt components that helped to speed up the design process. Chakra UI made it a lot easier to have a mobile first design. The site is fully compatible with mobile and had dark and light modes.
+For the design we opted for Chakra UI which allowed for a good amount of customisation whilst also having many prebuilt components that helped to speed up the design process. Chakra UI made it a lot easier to have a mobile first design. The site is fully compatible with mobile and has dark and light modes.
 
 
 ## Challenges
