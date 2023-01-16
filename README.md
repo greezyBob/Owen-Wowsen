@@ -44,7 +44,7 @@ For the design we opted for Chakra UI which allowed for a good amount of customi
 To make requests to the public API we used axios and assigned the chosen data to variables using the React useState and setState hooks. The API used was fairly manageable to digest, with 0-29 objects within one array. There were twelve films within this array and each instance of ‘wow’ mentioned accounted for one object (and therefore certain films accounting for more than one ‘wow’).
 
 We used the useEffect and useSate hooks to make a request to the api on page load and store the data in the variable wows.
-```
+```js
 useEffect(() => {
     const getWows = async () => {
       try {
@@ -59,7 +59,7 @@ useEffect(() => {
   }, [])
 ```
 We then needed to filter through the results to make sure we only displayed each movie once. The dependency in this instance is the wow state.
-```
+```js
 useEffect(() => {
     let filteredArray = []
     wows.forEach(wow => wow.current_wow_in_movie === 1 ? filteredArray.push(wow) : '')
